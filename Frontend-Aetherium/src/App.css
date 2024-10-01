@@ -1,0 +1,660 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-bf4800: #bf4800;
+  --color-131921: #000000;
+  --color-3b4149: #3b4149;
+  --color-febd69: #febd69;
+  --color-232f3e: #232f3e;
+  --color-232f3e: #232f3e;
+  --color-bf4800: #bf4800;
+  --color-f5f5f7: #f5f5f7;
+  --color-ededed: #ededed;
+  --color-777777: #777777;
+  --color-1c1c1b: #1c1c1b;
+  --color-cccccc: #cccccc;
+  --color-fc353c: #fc353c;
+}
+body {
+  font-family: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h6 {
+  font-weight: bolder;
+}
+h5 {
+  font-weight: bolder;
+}
+/* HEADER THINGYS*/
+.Header-top-strip {
+  background-color: var(--color-131921);
+  border-bottom: 1px solid var(--color-3b4149);
+}
+.header-upper {
+  background-color: var(--color-131921);
+}
+.header-upper .input-group-text {
+  background-color: var(--color-febd69);
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: inherit;
+}
+.header-upper .header-upper-links img {
+  width: 35px;
+  aspect-ratio: 1;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-5 {
+  gap: 5px;
+}
+.gap-15 {
+  gap: 15px;
+}
+.gap-30 {
+  gap: 30px;
+}
+.gap-2-5 {
+  gap: 2.5px;
+}
+.header-bottom {
+  background-color: var(--color-3b4149);
+}
+.header-bottom .menu-links a,
+.header-bottom .dropdown button {
+  color: white !important;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.3;
+  text-transform: uppercase;
+}
+.header-bottom .dropdown button:focus {
+  box-shadow: none;
+}
+.header-bottom .dropdown-menu {
+  background-color: var(--color-232f3e);
+  width: 100%;
+  transform: translate3d(0px, 57px, 0px) !important;
+}
+.header-bottom .dropdown-item:hover {
+  background-color: transparent;
+  color: var(--color-febd69) !important;
+}
+.header-bottom .dropdown-item {
+  padding: 20px;
+  margin-bottom: 3px;
+  border-bottom: 1px solid var(--color-3b4149);
+}
+/*  FOOTER THINGYS PROLLY*/
+footer {
+  background-color: var(--color-232f3e);
+}
+footer:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer .input-group-text {
+  background-color: var(--color-232f3e);
+  color: white;
+  padding: 8px 17px;
+}
+.SomeoneNum {
+  margin-bottom: 0 !important;
+}
+.somebodyNum {
+  margin-top: 5px !important;
+}
+
+/*  this is where the foot ends and the home place starts*/
+
+.main-banner-content {
+  top: 10%;
+  left: 5%;
+}
+.main-banner-content h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-bf4800);
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.main-banner-content h5 {
+  font-size: 42px;
+  line-height: 54px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  padding: 0;
+  text-transform: none;
+}
+.main-banner-content p {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: var(--color-131921);
+}
+.button {
+  background-color: var(--color-232f3e);
+  color: white;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 25px;
+}
+.button:hover {
+  background-color: var(--color-febd69);
+  color: #131921;
+  transition: ease-in 0.2s;
+}
+.small-banner-content {
+  top: 25%;
+  left: 10%;
+}
+.small-banner-content h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-bf4800);
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.small-banner-content h5 {
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0;
+  font-weight: 500;
+  padding: 0;
+  text-transform: none;
+}
+.small-banner-content p {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  color: var(--color-131921);
+}
+.small-banner {
+  width: 49%;
+}
+/* finished the wrapper now we continue to wrapper 2 ;-;*/
+
+.home-wrapper-2 {
+  background-color: var(--color-f5f5f7);
+}
+
+/*  finished wrapper 2 pretty easily now to catagories  */
+.catagories {
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+}
+.catagories > div {
+  width: 25%;
+  padding: 10px 10px 20px 10px;
+}
+.catagories > div:nth-child(1),
+.catagories > div:nth-child(2),
+.catagories > div:nth-child(3),
+.catagories > div:nth-child(4) {
+  border-bottom: 1px solid var(--color-ededed);
+}
+.catagories > div:not(:nth-child(4n)) {
+  border-right: 1px solid var(--color-ededed);
+}
+.catagories > div > div {
+  width: 60%;
+}
+.card-wrapper {
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+}
+
+/*  blog place  */
+
+.blog-card {
+  background-color: white;
+}
+.blog-card img {
+  border-top-left-radius: 10px;
+  border-top: 10px;
+}
+.blog-content {
+  padding: 15px;
+}
+.blog-content .date {
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 400;
+  padding: 0;
+  color: var(--color-777777);
+}
+.blog-content h5 {
+  font-size: 18px;
+  color: var(--color-131921);
+}
+.blog-content p.desc {
+  font-size: 13px;
+  line-height: 22px;
+  color: var(--color-777777);
+}
+.section-heading {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+/*product card smth*/
+
+.product-card {
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100% !important;
+}
+.product-card .product-details h6 {
+  color: var(--color-bf4800);
+  font-size: 13px;
+}
+.product-card .product-details h5 {
+  font-size: 15px;
+  color: var(--color-1c1c1b);
+}
+.product-card .product-details p {
+  font-size: 16px;
+  color: var(--color-1c1c1b);
+}
+.action-bar {
+  top: 10%;
+  right: -23px;
+  transition: 0.3s;
+}
+.product-card:hover .action-bar {
+  right: 15px;
+}
+.wishlist-icon {
+  top: 2%;
+  right: 15px;
+}
+.product-image > img:last-child {
+  width: 269px;
+  aspect-ratio: 1;
+  display: none;
+}
+.product-card:hover .product-image > img:first-child {
+  display: none;
+}
+.product-card:hover .product-image > img:last-child {
+  display: block;
+}
+
+/* special products begin its journey */
+
+.special-product-card {
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.famous-card img {
+  width: 305px;
+  aspect-ratio: 1.5;
+}
+.famous-card .famous-content {
+  top: 10%;
+  left: 10%;
+}
+.famous-card {
+  padding-top: 230px !important;
+  border-radius: 10px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.352);
+}
+.famous-content h5 {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #b8b8b8;
+
+  margin-bottom: 7px;
+}
+.famous-content h6 {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 500;
+  color: white;
+}
+.famous-content p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+  color: #a09f9f;
+}
+.fixMe {
+  width: 245px !important;
+  aspect-ratio: 1.2 !important;
+}
+/* Our Store page started*/
+.filter-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 15px 25px;
+}
+.filter-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 20px;
+}
+.filter-card ul,
+.filter-card .form-check-label {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-777777);
+  cursor: pointer;
+}
+.sub-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.filter-card .form-check-input:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.25);
+}
+.filter-card .form-check-input:checked {
+  background-color: var(--color-febd69);
+  border-color: var(--color-febd69);
+}
+.colors {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.colors li {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+.random-products h5 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.random-products:first-child {
+  border-bottom: 1px solid var(--color-ededed);
+}
+.filter-sort-grid {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.grid img {
+  width: 35px;
+  aspect-ratio: 1;
+  background-color: #f2f2f2;
+  padding: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+p.d-block.mb-0 {
+  width: 100px;
+}
+.gr-12 {
+  width: 100%;
+}
+.gr-6 {
+  width: 49.48443%;
+}
+.gr-4 {
+  width: 32.6445%;
+}
+.gr-3 {
+  width: 24.2256%;
+}
+.gr-12 .product-card {
+  display: flex;
+  gap: 20px;
+}
+.product-card p.description {
+  color: var(--color-777777) !important;
+  font-size: 13px;
+  margin-right: 20px;
+}
+img.img-fluid.w-100 {
+  border-radius: 10px 10px 0px 0px;
+}
+/* contact page starts here lil bro btw why the fuck are youy stalking my code its trash ima fix it later(never) */
+.contact-inner-wrapper {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  gap: 15px;
+}
+.contact-inner-wrapper > div {
+  width: 48%;
+}
+.contact-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+}
+.contact-inner-wrapper form .form-control {
+  background-color: var(--color-f5f5f7);
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 10px;
+}
+.contact-inner-wrapper ul {
+  list-style: none;
+}
+.contact-inner-wrapper address,
+.contact-inner-wrapper a,
+.contact-inner-wrapperp {
+  color: var(--color-777777);
+}
+/* this is where the comapring smth with smth pagfe starts prolly goinna be a small section maybe prolly robably might be small */
+.compare-products-card {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.compare-products-card .cross {
+  top: 15px;
+  right: 15px;
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+  padding: 3px;
+}
+.compare-product-details h5.title,
+.wishlist-card h5.title {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--color-1c1c1b);
+}
+.compare-products-details h6.price,
+.wishlist-card h6.price {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.compare-products-card .product-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-top: 1px solid var(--color-cccccc);
+}
+.wishlist-card .cross {
+  top: 15px;
+  right: 15px;
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+  padding: 3px;
+}
+/* log in or auth thingys start here */
+
+.auth-card,
+.forgot-password-card {
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 50px auto;
+  border-radius: 12px;
+}
+.auth-card h3,
+.forgot-password-card h3 {
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--color-3b4149);
+}
+.auth-card label,
+.forgot-password-card label {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+.auth-card .form-control,
+.forgot-password-card .form-control {
+  height: 50px;
+  background-color: var(--color-f5f5f7);
+
+  border-radius: 10px;
+  border-color: transparent;
+}
+.auth-card a:first-child,
+.forgot-password-card a:first-child {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-1c1c1b);
+}
+.auth-card .signup {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}
+.auth-card .signup:hover {
+  background-color: var(--color-131921);
+  color: white;
+}
+.plzNormal {
+  color: #000000;
+}
+.plzNormal:hover {
+  color: #000000;
+}
+.forgot-password-card .cancel {
+  background-color: transparent;
+  color: var(--color-1c1c1b);
+}
+.forgot-password-card .cancel:hover {
+  background-color: var(--color-232f3e);
+  color: white;
+  transition: ease-in 0.15s;
+}
+.forgot-password-card p.text-center {
+  color: var(--color-777777);
+  font-size: 13px;
+}
+/* single blog here and i think its just a single blog prolly not sure yet */
+.single-blog-card {
+  background-color: var(--color-f5f5f7);
+  border-radius: 10px;
+}
+.single-blog-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+}
+.single-blog-card p {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+.single-blog-card a {
+  font-size: 15px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
+}
+
+/* here are the pages that i perconally dont even care about terms of condition etc */
+.privacy {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+/* now i started with the single product page cause i want to and it might be fun(im lying to myself)(im delusional delulu unrealistic) */
+
+.review-head h4 {
+  font-size: 18px;
+  color: var(--color-1c1c1b);
+}
+.review-head p,
+.review-head a {
+  font-size: 18px;
+  color: var(--color-777777);
+}
+
+.review-inner-wrapper {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+.review-head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+.review-form h3 {
+  font-size: 18px;
+  color: var(--color-777777);
+  font-weight: 500;
+}
+.review-form label {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+.review-form input::placeholder {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+.review-form h4 {
+  font-size: 16px;
+  color: var(--color-777777);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.review-form {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.review p {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+.review:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.description-wrapper div.description>p{
+  color: var(--color-777777);
+  font-size: 103x;
+  margin-right: 20px;
+}
