@@ -19,6 +19,8 @@ import ShippingPolicy from "./pages/ShippingPolicy"
 import RefundPolicy from "./pages/RefundPolicy"
 import TermsOfService from "./pages/TermsOfService"
 import SingleProduct from "./pages/SingleProduct"
+import Cart from "./pages/Cart"
+import Checkout from "./pages/Checkout"
 const App = () => {
   return (
     <>
@@ -33,6 +35,8 @@ const App = () => {
             <Route path="signup" element={<Signup />}/>
             <Route path="login/forgot-password/reset-password" element={<Resetpassword />}/>
             <Route path="wishlist" element={<Wishlist />}/>
+            <Route path="cart" element={<Cart />}/>
+            <Route path="cart/checkout" element={<Checkout />}/>
             <Route path="login" element={<Login />}/>
             <Route path="contact" element={<Contact />}/>
             <Route path="ourStore" element={<OurStore />}/>

@@ -17,9 +17,9 @@ const ProductCard = (props: Props) => {
         <Link to="/ourStore/products/product/:id" style={{'width': '100%'}}>
           <div className="product-card position-relative">
             <div className="wishlist-icon position-absolute">
-              <Link to="">
+              <button>
                 <img src="/images/images/wish.svg" alt="" />
-              </Link>
+              </button>
             </div>
             <div className="product-image d-flex justify-content-center">
               <img src="/images/images/watch.jpg" alt="watch" />
@@ -37,15 +37,15 @@ const ProductCard = (props: Props) => {
             </div>
             <div className="action-bar position-absolute">
               <div className="d-flex flex-column gap-15">
-                <Link to="">
+                <button>
                   <img src="/images/images/prodcompare.svg" alt="compare" />
-                </Link>
-                <Link to="">
+                </button>
+                <button>
                   <img src="/images/images/add-cart.svg" alt="" />
-                </Link>
-                <Link to="">
+                </button>
+                <button>
                   <img src="/images/images/view.svg" alt="" />
-                </Link>
+                </button>
               </div>
             </div>
           </div>

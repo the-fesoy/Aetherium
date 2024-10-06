@@ -13,7 +13,7 @@ const BreadCrumb = (props: Props) => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12 ">
-              <div className="d-flex justify-content-center mb-3 ">
+              <div className="d-flex mb-3 breadcrumb">
                
                   <Link to="/" className="text-dark">
                     Home&nbsp; 
