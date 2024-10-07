@@ -224,9 +224,10 @@ const OurStore = () => {
               <div className="d-flex justify-content-between align-items-center">
                 <div className="d-flex align-items-center gap-10">
                   <p className="mb-0 d-block">Sort By:</p>
-                  <select name="" id="" className="form-control form-select">
+                  <select name="" id="" className="form-control form-select" defaultValue={"DEFAULT"}>
+                    <option value="DEFAULT " disabled>Select...</option>
                     <option value="manual">Featured</option>
-                    <option value="best-selling" selected>
+                    <option value="best-selling">
                       Best selling
                     </option>
                     <option value="title-ascending">Alphabetically, A-Z</option>

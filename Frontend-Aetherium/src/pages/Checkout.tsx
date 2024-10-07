@@ -47,11 +47,9 @@ const Checkout = () => {
                 className="d-flex flex-wrap gap-15 justify-content-between"
               >
                 <div className="w-100">
-                  <select name="" id="" className="form-control form-select">
+                  <select name="" id="" className="form-control form-select" defaultValue={"DEFAULT"}>
                     <option
-                      value=" Select Country"
-                      defaultChecked={true}
-                      selected
+                      value="DEFAULT"
                       disabled
                     >
                       Select Country
@@ -97,8 +95,8 @@ const Checkout = () => {
                   />
                 </div>
                 <div className="flex-grow-1">
-                  <select name="" id="" className="form-control form-select">
-                    <option value="" defaultChecked={true} selected disabled>
+                  <select name="" id="" className="form-control form-select" defaultValue={"normal"}>
+                    <option value="normal" disabled>
                       Select State
                     </option>
                   </select>
